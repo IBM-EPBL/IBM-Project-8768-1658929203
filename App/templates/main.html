@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap" rel="stylesheet">
+        <link href="./../static/css/main.css" rel="stylesheet">
+        <link href="./../static/css/dashboard.css" rel="stylesheet">
+        <link href="./../static/css/upload.css" rel="stylesheet">
+        <link href="./../static/css/recomandation.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div id="dashboard">
+        <div id="outer-container">
+            <div id="aside">
+                <div id="aside-topheader">
+                    <img src="./../static/icon/chemical.png" width="50" height="50">
+                    <span>Fertilizer</span>
+                </div>
+                <ul id="aside-list">
+                    <li id="active">
+                        <img src="./../static/icon/dashboard.png" width="20" height="20">
+                        <span>Dashboard</span>
+                    </li>
+                    <li>
+                        <img src="./../static/icon/upload.png" width="20" height="20">
+                        <span>Upload</span>
+                    </li>
+                    <li>
+                        <img src="./../static/icon/history.png" width="20" height="20">
+                        <span>History</span>
+                    </li>
+                </ul>
+            </div>
+            <div id="main">
+                <form id="search">
+                    <input id="searchbox" type="text" placeholder="search plant name"  autocomplete="off">
+                    <input id="submitbutton" type="submit" value="Search">
+                </form>
+                <span id="plant-disease-header">Plant Disease</span>
+                <div id="searchkeyword">
+                    <span>Search Keyword : </span>
+                    <span id="searchword" class="searchword">""</span>
+                </div>
+                <div id="searchcontent">
+
+                </div>
+            </div>
+            <div id="preview">
+                <div class="circular--portrait"> <img src="./../static/img/login-page-plant.jpeg" /> </div>
+                <div id="username">{{session.get("name")}}</div>
+                <button id="logout" class="content-button active">Logout</button>
+            </div>
+        </div>
+       <script type="text/javascript" src="./../static/js/changelist.js"></script>
+        </div>
+
+    </body>
+    
+</html>

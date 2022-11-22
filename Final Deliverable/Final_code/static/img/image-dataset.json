@@ -1,0 +1,78 @@
+{
+    "fruit": {
+        "apple": [
+            {
+                "healthy": "./static/img/dataset-img/apple-healthy.JPG",
+                "disease": "./static/img/dataset-img/apple-black-rot.JPG",
+                "id": 101,
+                "diseasename": "Apple black Rot"
+            }
+        ],
+        "corn(maize)": [
+            {
+                "healthy": "./static/img/dataset-img/corn-maize healthy.jpg",
+                "disease": "./static/img/dataset-img/corn-maize-northern-leaf-blight.JPG",
+                "id": 102,
+                "diseasename": "Corn(Maize) Northern Leaf blight"
+            }
+        ],
+        "peach": [
+            {
+                "healthy": "./static/img/dataset-img/peach-healthy.JPG",
+                "disease": "./static/img/dataset-img/peach-bacterial-spot.JPG",
+                "id": 103,
+                "diseasename": "Peach Bacterial Spot"
+            }
+        ]
+    },
+    "vegetable": {
+        "pepper": [
+            {
+                "healthy": "./static/img/dataset-img/pepper-bell-healthy.JPG",
+                "disease": "./static/img/dataset-img/peper-bell-bacterial-spot.JPG",
+                "id": 104,
+                "diseasename": "Pepper Bell Bacterial Spot"
+            }
+        ],
+        "potato": [
+            {
+                "healthy": "./static/img/dataset-img/potato-healthy.JPG",
+                "disease": "./static/img/dataset-img/potato-early-blight.JPG",
+                "id": 105,
+                "diseasename": "Potato Early Blight"
+            },
+            {
+                "healthy": "./static/img/dataset-img/potato-healthy.JPG",
+                "disease": "./static/img/dataset-img/potato-late-blight.JPG",
+                "id": 106,
+                "diseasename": "Potato Late Blight"
+            }
+        ],
+        "tomato": [
+            {
+                "healthy": "./static/img/dataset-img/tomato-healthy.webp",
+                "disease": "./static/img/dataset-img/tomato-bacterial-spot.JPG",
+                "id": 107,
+                "diseasename": "Tomato Bacterial Spot"
+            },
+            {
+                "healthy": "./static/img/dataset-img/tomato-healthy.webp",
+                "disease": "./static/img/dataset-img/tomato-late-blight.JPG",
+                "id": 108,
+                "diseasename": "Tomato Late Blight"
+            },
+            {
+                "healthy": "./static/img/dataset-img/tomato-healthy.webp",
+                "disease": "./static/img/dataset-img/tomato-leaf-mold.JPG",
+                "id": 109,
+                "diseasename": "Tomato Leaf Mold"
+            },
+            {
+                "healthy": "./static/img/dataset-img/tomato-healthy.webp",
+                "disease": "./static/img/dataset-img/tomato-septorial-leaf-spot.JPG",
+                "id": 110,
+                "diseasename": "Tomato Septorial Leaf Spot"
+            }
+        ]
+    }
+}
